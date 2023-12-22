@@ -1,0 +1,12 @@
+@use "./abstracts/base";
+@use "./abstracts/vars";
+@use "./abstracts/mixins";
+@use "./abstracts/reset";
+
+
+@use "./component/suggestieBalk.scss";
+@use "./component/slideshow.scss";
+@use "./component/inhoud.scss";
+
+@use "./header/header.scss";
+@use "./footer/footer.scss";

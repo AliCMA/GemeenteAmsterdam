@@ -1,0 +1,43 @@
+@import "../abstracts/mixins";
+
+
+.suggestievak{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 2rem;
+background: gray;
+
+
+
+&__expertise{
+    font-size: 2.5rem;
+}
+
+&__imagevergrootglas{
+    width: 2rem;
+}
+
+&__vgimage{
+    width: 4rem;
+}
+
+&__vergrootglas{
+        @include flexCenter;
+        font-size: 4rem;
+        padding-bottom: 0.5rem;
+}
+
+}
+
+#searchArea {
+    display: none;  
+}
+
+.fa-magnifying-glass{
+    
+}
+
+
+
+

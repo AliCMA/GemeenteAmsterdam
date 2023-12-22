@@ -1,0 +1,7 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+.header {
+    background-color: vars.$Blauw;
+    
+}

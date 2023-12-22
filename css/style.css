@@ -1,0 +1,116 @@
+html {
+  font-size: 62.5%;
+}
+
+main {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+* {
+  text-decoration: none;
+  color: inherit;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.suggestievak {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: gray;
+}
+.suggestievak__expertise {
+  font-size: 2.5rem;
+}
+.suggestievak__imagevergrootglas {
+  width: 2rem;
+}
+.suggestievak__vgimage {
+  width: 4rem;
+}
+.suggestievak__vergrootglas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+#searchArea {
+  display: none;
+}
+
+.slideshow {
+  padding-top: 100rem;
+}
+
+.inhoud {
+  display: flex;
+  align-items: center;
+  padding-top: 9rem;
+}
+.inhoud__content {
+  font-size: 2rem;
+  padding: 4rem;
+}
+.header__pmb {
+  font-size: 4rem;
+}
+
+#header {
+  background-color: white;
+  padding: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__ulcontact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__li {
+  margin-right: 20px;
+}
+
+.header__a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.header__logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.header__logoList {
+  margin-right: 20px;
+}
+
+.header {
+  background-color: #252B48;
+}
+
+/*# sourceMappingURL=style.css.map */
