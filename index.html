@@ -6,6 +6,9 @@
     <title>Amsterdam Projectmanagementbureau</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="./src/js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8a111eb1bb.js" defer crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,16 +30,14 @@
 </header> 
 
 <main>
-     
-  
+
 
 
 <section class="suggestievak">
 
 <p>
-    <a class="suggestievak__expertise" href="">Expertise</a>
+    <a class="suggestievak__expertise" href="./projecten.html">Projecten</a>
 </p>
-
 
 <div>
     <div class="suggestievak__vergrootglas">
@@ -47,32 +48,78 @@
   <div id="searchArea">
     <label for="searchInput"></label>
     <input type="text" id="searchInput" name="searchInput">
-    <!-- Add other search-related elements here -->
   </div>
 </div>
 
 </section>
 
 <section class="inhoud">
-    <div class="inhoud__content">
-<h1>Bouwmanagement en Maatschappelijk Vastgoed</h1>
-<br>
-<p>Bijdragen aan een toekomstbestendige stad
-    Een sociaal-duurzaam Amsterdam
-    Voor veel mensen is en blijft Amsterdam een zeer
-    aantrekkelijke plek om te wonen en dus blijven we bouwen 
-    aan de groei van de stad. Maar Amsterdam bestaat natuurlijk 
-    uit méér dan alleen woningen. Daarom bouwen we aan 
-    een sociaal-duurzaam Amsterdam: een stad die het welzijn 
-    van haar bewoners belangrijk vindt en verbetert, door niet 
-    alleen woningen te bouwen maar ook te zorgen voor 
-    maatschappelijke voorzieningen, voor huidige bewoners
-     en toekomstige generaties.</p>
-    </div>
+ 
+    <article class="inhoud__contentarticle">
+        <div class="inhoud__content">
+            <h1>Bouwmanagement en Maatschappelijk Vastgoed</h1>
+            <br>
+            <p>Bijdragen aan een toekomstbestendige stad
+                Een sociaal-duurzaam Amsterdam
+                Voor veel mensen is en blijft Amsterdam een zeer
+                aantrekkelijke plek om te wonen en dus blijven we bouwen 
+                aan de groei van de stad. Maar Amsterdam bestaat natuurlijk 
+                uit méér dan alleen woningen. Daarom bouwen we aan 
+                een sociaal-duurzaam Amsterdam: een stad die het welzijn 
+                van haar bewoners belangrijk vindt en verbetert, door niet 
+                alleen woningen te bouwen maar ook te zorgen voor 
+                maatschappelijke voorzieningen, voor huidige bewoners
+                 en toekomstige generaties.</p>
+                </div>
+    </article>
 
-    <div class="inhoud__img">
-        <img src="./src/img/vergrootglas.jpg" alt="">
-    </div>
+    <article class="inhoud__slideshow">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 7</div>
+              <img class="inhoud__slideshowimg" src="./src/img/slideshow-1.webp" >
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 7</div>
+              <img class="inhoud__slideshowimg" src="./src/img/slideshow-2.webp">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <img class="inhoud__slideshowimg" src="./src/img/slideshow-3.webp">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img class="inhoud__slideshowimg" src="./src/img/slideshow-4.webp">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <img class="inhoud__slideshowimg" src="./src/img/slideshow-5.webp" >
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img class="inhoud__slideshowimg" src="./src/img/slideshow-6.webp">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img class="inhoud__slideshowimg" src="./src/img/slideshow-7.webp">
+              </div>
+           
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+          </div>
+    </article>
 
 </section>
 
@@ -81,8 +128,60 @@
 </main>
 
 
-<footer>
+<footer class="footer">
+    <nav class="footer__nav">
+        <ul class="footer__ul1">
+            <li>
+                <a href="./organisatie.html"><b>Organisatie ></b></a>
+            </li>
 
+            <li>
+                <a href="./projecten.html"><b>Projecten ></b></a>
+            </li>
+
+            <li>
+                <a href="./werkenbij.html"><b>Werken bij ></b></a>
+            </li>
+        </ul>
+
+
+        <ul class="footer__ul2">
+            <li>
+                <a href="https://www.linkedin.com/company/projectmanagement-bureau/">>LinkedIn
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/PMB020">>Twitter</a>
+            </li>
+
+            <li>
+                <a href="https://www.amsterdam.nl/">>Naar Amsterdam.nl</a>
+            </li>
+
+        </ul>   
+
+
+        <ul class="footer__ul3">
+            <li>
+                <a href="">Contact</a>
+            </li>
+
+            <li>
+                <a href="">Colofon</a>
+            </li>
+
+            <li>
+                <a href="">Proclaimer en copyright</a>
+            </li>
+
+            <li>
+                <a href="">Sitemap</a>
+            </li>
+
+        </ul>
+
+    </nav>
 </footer>
 
 </body>
