@@ -300,46 +300,6 @@ main {
   border-radius: 5rem;
 }
 
-.projecten {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 5rem;
-  padding-top: 4rem;
-}
-
-.projecten__article1,
-.projecten__article2,
-.projecten__article3,
-.projecten__article4 {
-  display: flex;
-  gap: 15rem;
-}
-
-.project-link {
-  position: relative;
-}
-
-.project-title {
-  color: #FF0000;
-  font-size: 4rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.project-link:hover .project-title {
-  opacity: 1;
-}
-
-.projecten__img {
-  width: 40rem;
-  border-radius: 5rem;
-}
-
 .projectsection1 {
   padding-top: 4rem;
   display: flex;
@@ -664,6 +624,12 @@ main {
   border: 0.2rem solid #FF0000;
 }
 
+.test {
+  background-color: red;
+  height: 4rem;
+  width: 4rem;
+}
+
 .rama {
   padding-top: 4rem;
   display: flex;
@@ -730,77 +696,6 @@ main {
   border: 0.2rem solid #FF0000;
 }
 .projectenimg2__img2 {
-  width: 40rem;
-  height: 35rem;
-  border: 0.2rem solid #FF0000;
-}
-
-.Wereldburger {
-  padding-top: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Wereldburger__img {
-  width: 40rem;
-  height: 40rem;
-  border-radius: 4rem;
-}
-.Wereldburger__h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 6rem;
-  font-size: 3rem;
-}
-
-.Wereldburger2 {
-  padding-top: 4rem;
-}
-.Wereldburger2__article {
-  background-color: #FF0000;
-  padding: 5rem;
-}
-.Wereldburger2__p {
-  font-size: 2rem;
-  color: #FFFFFF;
-}
-
-.Wereldburger3 {
-  padding-top: 4rem;
-}
-.Wereldburger3__article {
-  padding: 5rem;
-}
-.Wereldburger3__p {
-  font-size: 2rem;
-}
-
-.projectenimg4 {
-  background-color: #808080;
-  padding: 3rem;
-}
-.projectenimg4__article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.projectenimg4__video {
-  width: 40rem;
-  border: 0.2rem solid #FF0000;
-}
-.projectenimg4__article2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 6rem;
-}
-.projectenimg4__img1 {
-  width: 40rem;
-  height: 35rem;
-  border: 0.2rem solid #FF0000;
-}
-.projectenimg4__img2 {
   width: 40rem;
   height: 35rem;
   border: 0.2rem solid #FF0000;
@@ -876,4 +771,4 @@ main {
   font-size: 3rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
