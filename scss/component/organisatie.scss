@@ -1,0 +1,26 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+.organisatie{
+    padding-top: 5rem;
+    
+
+    &__titel{
+        @include flexCenter;
+        font-size: 3rem
+    }
+
+    &__subtitel{
+        @include flexCenter;
+        font-size: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    &__article{
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+    }
+}

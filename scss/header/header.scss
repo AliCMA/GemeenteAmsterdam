@@ -1,0 +1,57 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+
+.header{
+  background: linear-gradient(70deg, white 30%, red 0rem);
+  &__pmb{
+    font-size: 4rem;
+  }
+}
+
+#header {
+    background-color: white; 
+    padding: 10px; 
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header__ulcontact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header__li {
+    margin-right: 20px; 
+  }
+  
+  .header__a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem; 
+  }
+  
+  .header__logo {
+    max-width: 150px; 
+    height: auto;
+  }
+  
+  .header__logoList {
+    margin-right: 20px; 
+  }
+  
+
+

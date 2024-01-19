@@ -1,0 +1,83 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+
+
+
+.aics{
+    padding-top: 4rem;
+    @include flexCenter;
+
+    &__img{
+        width: 40rem;
+        height: 40rem;
+        border-radius: 4rem;
+    }
+
+    &__h1{
+        @include flexCenter;
+        padding-top: 6rem;
+        font-size: 3rem;
+    }
+}
+
+.aics2{
+    padding-top: 4rem;
+
+    &__article{
+        background-color: vars.$Rood;
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+        color: vars.$Wit;
+    }
+}
+
+.aics3{
+    padding-top: 4rem;
+
+    &__article{
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+    }
+}
+
+
+.projectenimg2{
+    background-color: vars.$Grijs;
+    padding: 3rem;
+
+    &__article{
+      @include flexCenter;
+    }
+
+    &__video{
+       width: 40rem;
+       border: 0.2rem solid vars.$Rood;
+    }
+
+    &__article2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 6rem;
+    }
+
+
+    &__img1{
+        width: 40rem;
+        height: 35rem;
+        border: 0.2rem solid vars.$Rood;
+    }
+
+    &__img2{
+       width: 40rem;
+       height: 35rem;
+       border: 0.2rem solid vars.$Rood;
+    }
+}

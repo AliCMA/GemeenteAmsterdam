@@ -1,0 +1,30 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+.werkwijze{
+    padding-top: 5rem;
+    // background-color: vars.$Rood;
+    background: linear-gradient(-145deg, white 14%, red 22rem);
+
+    &__titel{
+        @include flexCenter;
+        font-size: 3rem;
+        color: vars.$Wit;
+    }
+
+    &__subtitel{
+        @include flexCenter;
+        font-size: 3rem;
+        padding-bottom: 4rem;
+        color: vars.$Wit;
+    }
+
+    &__article{
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+        color: vars.$Wit;
+    }
+}

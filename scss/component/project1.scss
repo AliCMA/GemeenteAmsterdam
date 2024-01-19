@@ -1,0 +1,45 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+
+.projectsection1{
+    padding-top: 4rem;
+    @include flexCenter;
+
+    &__img{
+        width: 40rem;
+        border-radius: 4rem;
+    }
+
+    &__h1{
+        @include flexCenter;
+        padding-top: 6rem;
+        font-size: 3rem;
+    }
+}
+
+.projectsection2{
+    padding-top: 4rem;
+
+    &__article{
+        background-color: vars.$Rood;
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+        color: vars.$Wit;
+    }
+}
+
+.projectsection3{
+    padding-top: 4rem;
+
+    &__article{
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+    }
+}

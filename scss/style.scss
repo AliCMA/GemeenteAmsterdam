@@ -1,0 +1,27 @@
+@use "./abstracts/base";
+@use "./abstracts/vars";
+@use "./abstracts/mixins";
+@use "./abstracts/reset";
+
+
+@use "./component/suggestieBalk.scss";
+@use "./component/slideshow.scss";
+@use "./component/inhoud.scss";
+@use "./component/organisatie.scss";
+@use "./component/werkwijze.scss";
+@use "./component/werkenbij.scss";
+@use "./component/projecten.scss";
+
+@use "./component/project1.scss";
+@use "./component/project2.scss";
+@use "./component/project3.scss";
+@use "./component/project4.scss";
+@use "./component/project5.scss";
+@use "./component/project6.scss";
+@use "./component/project7.scss";
+@use "./component/project8.scss";
+
+
+
+@use "./header/header.scss";
+@use "./footer/footer.scss";

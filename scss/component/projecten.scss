@@ -1,0 +1,80 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+.projecten{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 4rem;
+    
+
+    &__article1{
+      display: flex;
+      gap: 15rem;
+    }
+
+    &__article2{
+        display: flex;
+        gap: 15rem;
+    }
+
+
+    &__article3{
+        display: flex;
+        gap: 15rem;
+    }
+
+      &__article4{
+        display: flex;
+        gap: 15rem;
+    }
+
+
+    &__img{
+        width: 40rem;
+        border-radius: 5rem;
+    }
+}
+
+
+
+.projecten {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 4rem;
+}
+
+.projecten__article1,
+.projecten__article2,
+.projecten__article3,
+.projecten__article4 {
+    display: flex;
+    gap: 15rem;
+}
+
+.project-link {
+    position: relative;
+}
+
+.project-title {
+    color: vars.$Rood;
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-link:hover .project-title {
+    opacity: 1;
+}
+
+.projecten__img {
+    width: 40rem;
+    border-radius: 5rem;
+}

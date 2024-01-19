@@ -1,0 +1,75 @@
+@use "./../abstracts/vars";
+@import "../abstracts/mixins";
+
+.werkenbij{
+
+    &__titel{
+        @include flexCenter;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        font-size: 3rem;
+    }
+
+    &__subtitel{
+        @include flexCenter;
+        padding-bottom: 4rem;
+        font-size: 3rem;
+
+    }
+
+    &__article{
+        @include flexCenter;
+        padding: 5rem;
+    }
+
+    &__p{
+        font-size: 2rem;
+    }
+}
+
+.werkenbij2{
+    &__article2{
+        @include flexCenter;
+        padding: 5rem;
+        background-color: vars.$Rood;
+    }
+
+    &__p2{
+        font-size: 2rem;
+        color: vars.$Wit;
+    }
+}
+
+.projectenimg{
+    background-color: vars.$Grijs;
+    padding: 3rem;
+
+    &__article{
+      @include flexCenter;
+    }
+
+    &__video{
+       width: 40rem;
+       border: 0.2rem solid vars.$Rood;
+    }
+
+    &__article2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 6rem;
+    }
+
+
+    &__img1{
+        width: 40rem;
+        height: 35rem;
+        border: 0.2rem solid vars.$Rood;
+    }
+
+    &__img2{
+       width: 40rem;
+       height: 35rem;
+       border: 0.2rem solid vars.$Rood;
+    }
+}
