@@ -7,6 +7,12 @@
   &__pmb{
     font-size: 4rem;
   }
+
+  &__div{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+  }
 }
 
 #header {
@@ -45,7 +51,7 @@
   }
   
   .header__logo {
-    max-width: 150px; 
+    width: 12rem; 
     height: auto;
   }
   
