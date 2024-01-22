@@ -45,8 +45,42 @@
             width: 30rem;
         }
     }
+
+    .project-title{
+        font-size: 3rem;
+    }
 }
 
+@media screen and (max-width: 470px) {
+    .projectsection1__img{
+        padding: 2rem;
+    }
+
+    .aics__img{
+        padding: 2rem;
+    }
+
+    .renovatie__img{
+        padding: 2rem;
+    }
+
+    .Wereldburger__img{
+        padding: 2rem;
+    }
+
+    .Slavernijmuseum__img{
+        padding: 2rem;
+    }
+    
+
+    .Wereldburger__img{
+        padding: 2rem;
+    }
+
+    .rama__img{
+        padding: 2rem;
+    }
+}
 
 
 
@@ -137,3 +171,114 @@
     }
 }
 
+@media screen and (max-width: 470px) {
+    .projectsection1__h1{
+        padding: 3rem;
+    }
+
+    .aics__h1{
+        padding: 3rem;
+    }
+
+    .renovatie__h1{
+        padding: 3rem;
+    }
+
+    .Wereldburger__h1{
+        padding: 3rem;
+    }
+
+    .Slavernijmuseum__h1{
+        padding: 3rem;
+    }
+
+    .rama__h1{
+        padding: 3rem;
+    }
+
+    .Wereldburger__h1{
+        padding: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+       
+.projectenimg__video{
+    width: 30rem;
+}
+
+.projectenimg2__video{
+    width: 30rem;
+}
+
+.projectenimg4__img1{
+    width: 30rem;
+}
+
+.projectenimg5__img1{
+    width: 30rem;
+}
+
+.projectenimg2__img1{
+    width: 30rem;
+}
+
+.projectenimg4__img1{
+    width: 30rem;
+}
+
+
+.projectenimg__article2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projectenimg__img1{
+    width: 30rem;
+}
+
+.projectenimg__img2{
+    width: 30rem;
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1295px) {
+    .projectenimg2__article2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .projectenimg2__img2{
+        width: 30rem;
+    }
+
+    .projectenimg2__img2{
+        width: 30rem;
+    }
+
+    .projectenimg3__article2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .projectenimg3__img1{
+        width: 30rem;
+    }
+
+    .projectenimg3__img2{
+        width: 30rem;
+    }
+}
